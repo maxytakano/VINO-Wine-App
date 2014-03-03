@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:paddingRight="10dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical" >
+
+    <TextView
+        android:id="@+id/favorite_wine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_weight="1"
+        android:textColor="#fffff0"
+        android:textSize="22sp"
+        android:text="FAVORITE WINE NAME" />
+
+     <!--   <RatingBar
+        android:id="@+id/ratingBar1"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="true"
+        android:max="5"
+        android:numStars="5" 
+        android:layout_alignParentRight="true" /> -->
+        
+<!--       <RatingBar 
+      android:id="@+id/wineRatingBar"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:numStars="5"
+      android:rating="3.5"
+      android:isIndicator="false"
+      style="@style/wineRatingBar"    />   --> 
+      
+    <RatingBar
+        android:id="@+id/wineRatingBar"
+        style="@style/wineRatingBar" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="true"
+        android:max="5"
+        android:numStars="5" 
+        android:layout_alignParentRight="true" />
+
+</LinearLayout>

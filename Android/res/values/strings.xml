@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VINO</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">View Logs</string>
+    <string name="title_section2">New Entry</string>
+    <string name="title_section3">Favorites</string>
+    <string name="title_activity_favorites">FavoritesActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="newEntry_grape">Grape</string>
+    <string name="newEntry_location">Location</string>
+    <string name="newEntry_vintage">Vintage Year</string>
+    <string name="newEntry_category">Category(ie:white,red,etc.)</string>
+    <string name="newEntry_region">Region</string>
+    <string name="newEntry_rating">Rating</string>    
+    <string name="newEntry_comment">Comments</string>
+    <string name="newEntry_submit">Submit</string>
+    <string name="title_activity_new_entry">NewEntryActivity</string>
+
+</resources>
